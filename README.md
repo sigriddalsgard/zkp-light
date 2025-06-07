@@ -52,7 +52,7 @@ This will create two executables: `commit` and `verify`.
 
 ### 🔒 Step 1: Alice commits
 
-One user (Alice) run the `commit` program:
+One user (Alice) runs the `commit` program:
 
 ```bash
 ./commit
@@ -64,7 +64,7 @@ Both the public key `y` and the commit `C` is now calculated, and Alice has to g
 
 ### 🤺 Step 2: Bob challenges
 
-One user (Bob) run the `commit` program:
+Another user (Bob) runs the `commit` program:
 
 ```bash
 ./commit
