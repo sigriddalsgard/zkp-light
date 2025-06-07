@@ -13,9 +13,9 @@ void modular_pow(mpz_t result, const mpz_t base, const mpz_t exp,
 void calc_s(mpz_t s, mpz_t x, mpz_t r, mpz_t p) {
   mpz_t p_minus_1;
   mpz_init(p_minus_1);
-  mpz_sub_ui(p_minus_1, p, 1); // temp = p-1
-  mpz_add(s, x, r);            // s = x + r
-  mpz_mod(s, s, p_minus_1);    // s = s mod (p-1)
+  mpz_sub_ui(p_minus_1, p, 1);
+  mpz_add(s, x, r);
+  mpz_mod(s, s, p_minus_1);
   gmp_printf("%Zd + %Zd mod (%Zd-1) = %Zd\n", x, r, p, s);
   mpz_clear(p_minus_1);
 }
