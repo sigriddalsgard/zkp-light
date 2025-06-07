@@ -1,4 +1,4 @@
-Zero Knowledge Proof Light
+# Zero Knowledge Proof Light
 
 > *A small and simple version using the discrete logarithm*
 
