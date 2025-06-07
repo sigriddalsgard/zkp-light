@@ -59,7 +59,7 @@ One user (Alice) run the `commit` program:
 ```
 
 When propted, a big prime and a group generator are provided, and Alice has to choose a `x` which will remain secret.
-To calculate `C` Alice has to use a random number `r` which libsodium is used for.
+To calculate `C`, Alice must use a random number `r`, which is generated using libsodium.
 Both the public key `y` and the commit `C` is now calculated, and Alice has to give Bob (the verifier) these numbers.
 
 ### 🤺 Step 2: Bob challenges
