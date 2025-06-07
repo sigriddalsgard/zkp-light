@@ -22,17 +22,17 @@ All steps can be mathematically verified, but the secret remains hidden.
 
 #### macOS
 ```bash
-brew install libsodium cmake
+brew install libsodium cmake gmp
 ```
 
 #### Ubuntu/Debian
 ```bash
-apt-get install libsodium-dev cmake
+apt-get install libsodium-dev cmake libgmp-dev
 ```
 
 #### Fedora/RHEL
 ```bash
-dnf install libsodium-devel cmake
+dnf install libsodium-devel cmake gmp-devel
 ```
 
 ### 🔨 Compiling
