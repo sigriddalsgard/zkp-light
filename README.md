@@ -65,10 +65,10 @@ Both the public key `y` and the commit `C` is now calculated, and Alice has to g
 
 ### 🤺 Step 2: Bob challenges
 
-Another user (Bob) runs the `commit` program:
+Another user (Bob) runs the `verify` program:
 
 ```bash
-./commit
+./verify
 ```
 
 When prompted, the same large prime and group generator as before are provided.
