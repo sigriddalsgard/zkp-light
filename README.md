@@ -87,8 +87,8 @@ If the verification is successful, then Alice has proven to Bob, that she knows 
 
 ### 🤔 Step 4: Can the Result Be Trusted?
 
-In case Bob chooses the first challenge, where Alice only has to provide `r`, but there is a small chance that Alice doesn't know `x` and chooses a random `r` which happens to be the right `r`.
-In this case the verification will be successful, but Alice has lied. To increase the likelihood that Alice cannot lie her way out of it, it is recommended to run the program several times.
+If Bob chooses the first challenge, where Alice only has to provide `r`, there is a small chance that Alice doesn’t know `x` and instead chooses a random `r` that happens to be correct.
+In this case, the verification will succeed, but Alice will have lied. To reduce the likelihood that Alice can lie her way through, it is recommended to run the program multiple times.
 With each iteration the program runs, you will reduce the probability of Alice guessing correctly by chance, making it increasingly unlikely that she can deceive the verification.
 
 ---
