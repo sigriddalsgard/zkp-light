@@ -14,6 +14,7 @@ All steps can be mathematically verified, but the secret remains hidden.
 - C compiler (gcc or clang)
 - CMake (version 4.0.2 or higher)
 - libsodium (cryptographic library)
+- GMP (arbitrary precision arithmetic library)
 
 ## 🏗️ Building the Application
 
