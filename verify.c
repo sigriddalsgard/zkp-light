@@ -113,10 +113,10 @@ int main() {
 
     modular_pow(computed_c, g, r, p);
     if (mpz_cmp(c, computed_c) == 0) {
-      printf("Verification successful: C matches g^r mod p\n");
+      printf("🍾 🥳 Verification successful: 'C' matches 'g^r mod p' 🥳🍾\n");
     } else {
-      printf("Verification failed: C does NOT match g^r mod p, hence Alice is "
-             "a liar\n");
+      printf("❌ Verification failed ❌: 'C' does NOT match 'g^r mod p', "
+             "hence Alice is a liar\n");
     }
 
   } else if (choice == 2) {
@@ -135,9 +135,9 @@ int main() {
     gmp_printf("y * C mod p = %Zd * %Zd mod %Zd = %Zd\n", c, y, p, v);
 
     if (mpz_cmp(computed_s, v) == 0) {
-      printf("🍾 🥳 Verification successful: 'C' matches 'g^r mod p' 🥳🍾\n");
+      printf("🍾 🥳 Verification successful: 'C' matches 'g^s mod p' 🥳🍾\n");
     } else {
-      printf("❌ Verification failed ❌: 'y * C' does NOT match 'g^s mod p', "
+      printf("❌ Verification failed ❌: 'y * C mod p' does NOT match 'g^s mod p', "
              "hence Alice is a liar\n");
     }
 
